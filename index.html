@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotly — Find Your Study Spot</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- nav////////////////////////// -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="nav-logo" href="#">Spotly</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Community</a></li>
+        <li><a href="#find-spot">Find a Spot</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-tan nav-cta">Contact</a>
+    </div>
+    <!--  menu ///////////////////// -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#features" class="mobile-link">Features</a></li>
+        <li><a href="#testimonials" class="mobile-link">Community</a></li>
+        <li><a href="#find-spot" class="mobile-link">Find a Spot</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-tan mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- hero sec////////////////// -->
+  <section class="hero-split">
+    <div class="hero-split-text">
+      <h1>The perfect desk is waiting in a café near you.</h1>
+      <p>Find study groups meeting at your favorite cafés, connect with people chasing the same goals, and discover events happening this weekend.</p>
+      <div class="btn-group">
+        <a href="#features" class="btn btn-tan">Explore groups and events</a>
+        <a href="#gallery" class="btn btn-dark">Browse study spots</a>
+      </div>
+    </div>
+    <div class="hero-split-img">
+      <img src="images/hero.png"/>
+    </div>
+  </section>
+  <section class="hero-full">
+    <div class="hero-full-overlay"></div>
+    <img class="hero-full-bg" src="images/bac2.png" />
+    <div class="hero-full-content">
+      <h2>Join study meetups with people who get it.</h2>
+      <p>Connect with students and professionals finding their perfect study spot. Real people, real productivity, weekly meetups
+      in your area.</p>
+      <div class="btn-group hero-btn">
+        <a href="#find-spot" class="btn btn-tan">Explore study spots</a>
+        <a href="#testimonials" class="btn btn-dark">Join the community</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- sec 2//////////////////////////-->
+  <section class="features-section" id="features">
+    <div class="container">
+      <span class="eyebrow">WHAT SPOTLY OFFERS</span>
+      <div class="features-grid">
+        <div class="feature-card">
+          <img src= "images/img1.png" class="feature-image">
+          <h3>Curated Study Spots</h3>
+          <p>Browse cafés, libraries, and co-working spaces rated by real students for wifi, noise level, and vibe.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/img3.png" class="feature-image">
+          <h3>Study Groups</h3>
+          <p>Find or create study groups at your favorite spots. Meet people chasing the same goals.</p>
+        </div>
+        <div class="feature-card">
+          <img src= "images/img2.png"class="feature-image">
+          <h3>Events & Meetups</h3>
+          <p>Discover study sessions, workshops, and community events happening near you this weekend.</p>
+        </div>
+        <div class="feature-card">
+        <img src= "images/img4.png"class="feature-image">
+          <h3>Vibe Filtering</h3>
+          <p>Filter by study vibe — quiet focus, aesthetic, social, or energetic — to find exactly what you need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sec 3///////////////////////////////////////////////-->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header">
+        <h2>See what students and professionals are finding</h2>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn" id="nextBtn" aria-label="Next">&#8250;</button>
+        </div>
+      </div>
+      <div class="carousel-track-wrapper">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="testimonial-card">
+            <p class="testimonial-text">"The filtering by study vibe is honestly genius. I can pick 'energetic' when I need motivation and 'calm' when I need to focus. Saves so much trial and error."</p>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>Marcus Lim</strong>
+                <span>ACCOUNTANT AND PART-TIME MBA STUDENT</span>
+              </div>
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Marcus Lim" class="author-avatar" />
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">"The trending spots feature introduced me to cafés with actual community. You meet people grinding through their own work. It's lonely no more."</p>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>Jessica Wong</strong>
+                <span>CONTENT WRITER AND SPOTLY MEMBER</span>
+              </div>
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Jessica Wong" class="author-avatar" />
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">"I used to hop between three different apps to find a decent spot. Now I just open Spotly, filter by quiet + good wifi, and I'm sorted in under a minute."</p>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>Amir Hassan</strong>
+                <span>COMPUTER SCIENCE GRADUATE STUDENT</span>
+              </div>
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Amir Hassan" class="author-avatar" />
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">"Found my entire study group through Spotly. We meet every Thursday at the same café. I never expected a spot-finding app to give me actual friends."</p>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>Priya Nair</strong>
+                <span>LAW STUDENT AND SPOTLY COMMUNITY LEAD</span>
+              </div>
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Priya Nair" class="author-avatar" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sec 4///////////////////////// -->
+  <section class="find-spot-section" id="find-spot">
+    <div class="container">
+      <span class="eyebrow">FIND MY SPOT</span>
+      <h2>We'll match you with the perfect place.</h2>
+      <p class="section-sub">Answer three quick questions and we'll recommend the best spot for your session.</p>
+
+      <div class="spot-form-wrapper">
+        <div class="spot-form" id="spotForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="city">City / Area</label>
+              <select id="city">
+                <option value="">Select your area...</option>
+                <option value="Kuala Lumpur">Kuala Lumpur</option>
+                <option value="Petaling Jaya">Petaling Jaya</option>
+                <option value="Cyberjaya">Cyberjaya</option>
+                <option value="Purtajaya">Purtajaya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="vibe">Study Vibe</label>
+              <select id="vibe">
+                <option value="">Choose your vibe...</option>
+                <option value="quiet">🤫 Quiet & Focused</option>
+                <option value="aesthetic">✨ Aesthetic & Cozy</option>
+                <option value="social">💬 Social & Friendly</option>
+                <option value="energetic">⚡ Energetic & Buzzy</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="purpose">Purpose</label>
+              <select id="purpose">
+                <option value="">What are you here for?</option>
+                <option value="study">📚 Solo Study</option>
+                <option value="work">💼 Remote Work</option>
+                <option value="group">👥 Group Study</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-tan btn-full" id="findSpotBtn">Find My Spot →</button>
+        </div>
+
+        <!-- Result //////////////////// -->
+        <div class="spot-result" id="spotResult" style="display:none;">
+          <div class="result-inner">
+            <span class="result-badge">✦ Your Match</span>
+            <h3 id="resultName">The Corner Table</h3>
+            <p id="resultDesc">A quiet, plant-filled café perfect for deep focus sessions. Excellent wifi, minimal foot traffic, and the best oat latte in the area.</p>
+            <div class="result-tags" id="resultTags">
+              <span class="tag">🤫 Quiet</span>
+              <span class="tag">📶 Fast Wifi</span>
+              <span class="tag">🌿 Plants</span>
+            </div>
+            <div class="result-actions">
+              <a href="#contact" class="btn btn-tan">Book this spot</a>
+              <button class="btn btn-outline" id="resetBtn">Try again</button>
+            </div>
+          </div>
+          <div class="result-img">
+            <img id="resultImg" src=" " />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ccontact////////////////////////-->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-text">
+          <span class="eyebrow light">GET IN TOUCH</span>
+          <h2>Let's find your perfect spot together.</h2>
+          <p>Have a question, a café suggestion, or want to partner with Spotly? We'd love to hear from you.</p>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <span>📧</span>
+              <span>hello@spotly.co</span>
+            </div>
+            <div class="contact-info-item">
+              <span>📍</span>
+              <span>Available in 50+ cities worldwide</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <div class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="cName">Name *</label>
+              <input type="text" id="cName" placeholder="Your name" />
+              <span class="error-msg" id="cNameErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="cEmail">Email *</label>
+              <input type="email" id="cEmail" placeholder="your@email.com" />
+              <span class="error-msg" id="cEmailErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="cBudget">Monthly Budget (optional)</label>
+              <input type="text" id="cBudget" placeholder="e.g. $50/month" />
+            </div>
+            <div class="form-group">
+              <label for="cMessage">Message *</label>
+              <textarea id="cMessage" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+              <span class="error-msg" id="cMsgErr"></span>
+            </div>
+            <button class="btn btn-tan btn-full" id="contactSubmitBtn">Send Message →</button>
+          </div>
+          <div class="contact-success" id="contactSuccess" style="display:none;">
+            <div class="success-icon">✓</div>
+            <h3>Message sent!</h3>
+            <p>We'll get back to you within 24 hours. In the meantime, go find your spot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //////////////////////// -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Spotly</span>
+        <p>The community for focused minds.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#testimonials">Community</a>
+        <a href="#find-spot">Find a Spot</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Spotly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
