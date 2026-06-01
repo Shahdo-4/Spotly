@@ -149,13 +149,18 @@ ul {
 }
 
 .nav-logo {
-  font-family: var(--font-body);
-  font-size: 20px;
-  font-weight: 600;
-  color: #ffff;
+font-family: var(--font-body);
+  font-size: 25px;
+  color: #f5e9dc;
   margin-right: auto;
+  font-weight: 900;
 }
-
+.nav-logo span {
+  background: linear-gradient(45deg, #DA864D, #FFEDD0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
+}
 .nav-links {
   display: flex;
   gap: 28px;
@@ -812,9 +817,11 @@ ul {
 }
 
 .footer-brand .nav-logo {
-  color: #000000;
-  font-size: 18px;
   margin-bottom: 6px;
+    background: linear-gradient(238deg, #DA864D, #f3d6a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
 }
 
 .footer-brand p {
